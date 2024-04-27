@@ -1,7 +1,7 @@
 function abrirPdf(categoria) {
     switch (categoria) {
         case 'mobiliario':
-            window.open('', '_blank');
+            window.open('https://docs.google.com/viewerng/viewer?url=https://piacere-warehouseclearencesale.netlify.app/assets/pdf/SESMOBILIARIORED.pdf', '_blank');
             break;
         case 'cocinas':
             window.open('https://docs.google.com/viewerng/viewer?url=https://piacere-warehouseclearencesale.netlify.app/assets/pdf/SESCOCINASRED.pdf', '_blank');
