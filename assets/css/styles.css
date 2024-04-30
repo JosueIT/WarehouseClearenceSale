@@ -11,6 +11,12 @@ body {
     background-color: #F9F9F9;
 }
 
+.whatsapp-logo {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
 header {
     display: flex;
     justify-content: center;
@@ -156,4 +162,20 @@ footer  a {
     color: white;
     font-weight: 100;
     font-size: 12px;
+}
+
+.whatsapp-btn {
+    position: fixed;
+    bottom: 45px;
+    right: 30px;
+}
+
+.whatsapp-btn img {
+    width: 50px;
+}
+
+
+.whatsapp-btn:hover img {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
 }
