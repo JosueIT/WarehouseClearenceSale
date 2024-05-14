@@ -1,3 +1,4 @@
+
 function abrirPdf(categoria) {
     switch (categoria) {
         case 'mobiliario':
@@ -13,4 +14,3 @@ function abrirPdf(categoria) {
             console.log('Categoría no reconocida');
     }
 }
-
